@@ -5,22 +5,32 @@ body {
 .container {
     display: grid;
     min-height: 100vh;
+    grid-template-areas: 'header header header header' 'aside main main main' 'aside footer footer footer';
 }
 
 .nav {
     height: 50px;
     background-color: rebeccapurple;
+    grid-area: header;
 }
 
 .aside {
     background-color: forestgreen;
+    grid-area: aside;
 }
 
 .main {
-
+    text-align: center;
+    min-height: inherit;
+    grid-area: main;
 }
 
 .footer {
     height: 100px;
     background-color: midnightblue;
+    grid-area: footer;
+}
+
+@media (min-width: 768px) {
+    grid-template-areas: 'header header' 'main main' 'footer footer';
 }
