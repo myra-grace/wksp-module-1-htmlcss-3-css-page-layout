@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imgs/bg.jpg'); /* you need to specify the path to the file */
+    background-size: cover; /* Use this to have the image cover the full space */
+    background-position: top; /* Use this to center the background image */
+}
+
+div {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+p {
+    position: sticky;
+    top: 50%;
+    bottom: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

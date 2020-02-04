@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    margin:0;
+    padding: 5px 15px 5px 15px;
+    color: rgb(82, 78, 85);
+    background:none;
+    border-radius: 5px;
+    border: 2px solid rgb(82, 78, 85);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+div {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a::after {
+    content: '  >';
+}
+
+a {
+    color: rgb(0, 135, 219);
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}

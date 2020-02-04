@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: "poppins";
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+header, footer {
+    background-color: rgb(44, 35, 27);
+    color: bisque;
+    font-size: 20px;
+    display: grid;
+}
+
+.container {
+    font-size: 50px;
+    display: grid;
+}
+
+p {
+    display: grid;
+    text-align: center;
+    align-content: space-around;
+}
